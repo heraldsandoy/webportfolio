@@ -1,0 +1,15 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#navbar-custom {
+	background-color: red !important;
+	width: 10%;
+	height: 100vh;
+	display: block;
+}
+
+#navbar-custom .navbar-nav {
+	display: block;
+}
