@@ -22,7 +22,7 @@
 }
 
 .navbar-brand .logo-mine {
-	width:100px;
+	width:70px;
 }
 
 .navbar-nav i {
@@ -49,13 +49,14 @@
 
 #intro h1 {
 	font-family: 'Rajdhani', sans-serif;
-	font-size: 120px;
+	font-size: 70px;
 }
 
 #intro p {
-	font-size: 40px;
-	width: 95%;
+	font-size: 30px;
+    width: 95%;
     margin: 0 0 0 auto;
+    padding-bottom: 30px;
 }
 
 .padding-r {
@@ -73,6 +74,11 @@
 .career {
 	font-weight:bold;
 	color:#e94c3d;
+}
+
+.btn-custom {
+	background-color:#e94c3d;
+	color:#fff;
 }
 
 #tools .img-group {
@@ -94,4 +100,171 @@
 	font-size: 30px;
     font-weight: bold;
 	margin-bottom: 50px;
+}
+
+.w-80 {
+	width:80%;
+	max-width:80%;
+	margin:0 auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+textarea {
+	padding: 30px !important;
+    background: #2d2926 !important;
+    border: 0;
+	color:#fff !important;
+}
+
+form label {
+	font-size:16px;
+}
+
+#contact h2 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 70px;
+}
+
+.social-area i {
+	font-size: 40px;
+}
+
+.social-area a {
+	margin-right:10px;
+}
+
+@media only screen and (max-width:1700px) {
+	#navbar-custom {
+		width:15%;
+	}
+}
+
+@media only screen and (max-width:1600px) {
+	form input[type="text"],
+	form input[type="email"],
+	textarea {
+		padding: 0px 20px !important;
+	}
+
+	textarea {
+		height:140px;
+	}
+
+	.navbar-nav i {
+		font-size:30px;
+	}
+}
+
+@media only screen and (max-width:1360px) {
+	#navbar-custom {
+		width: 20%;
+	}
+
+	#intro p {
+		font-size:24px;
+	}
+
+	#tools img {
+		width:75px;
+	}
+	
+	.img-group p {
+		font-size:16px;
+	}
+}
+
+@media only screen and (max-width:1100px) {
+	#contact h2 {
+		margin-bottom:40px;
+		font-size:50px;
+	}
+}
+
+@media only screen and (max-width:999px) {
+	.collapse {
+		display:flex !important;
+	}
+
+	#navbar-custom {
+		width: 100%;
+		height: auto !important;
+		position: fixed;
+		z-index: 9999;
+		display: block !important;
+	}
+
+	#main-body {
+		display:block !important;
+	}
+
+	#navbar-custom .navbar-nav {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		flex-direction: row !important;
+	}
+	
+	.navbar-brand {
+		width: 100%;
+		text-align: center;
+	}
+
+	#navbar-custom .nav-item {
+		margin-bottom:0px !important;
+	}
+
+	#intro {
+		display:block !important;
+		margin-top:200px;
+		scroll-margin-top: 300px !important;
+		padding-bottom:70px;
+	}
+
+	#intro .col-7 {
+		width:100%;
+		max-width:100%;
+		text-align: center !important;
+	}
+
+	#intro .col-5 {
+		width: 100%;
+		max-width: 100%;
+		display: none;
+	}
+
+	.padding-l {
+		padding-left:0px !important; 
+	}
+
+	#intro p {
+		width:100%;
+	}
+
+	#tools {
+		scroll-margin-top: 200px !important;
+	}
+
+	#contact {
+		scroll-margin-top: 200px !important;
+		padding-bottom:100px;
+	}
+
+	.vh-100 {
+		height:auto !important;
+	}
+
+	.padding-r {
+		padding-right:15px !important;
+	}
+
+	#tools .img-group {
+		flex:unset;
+	}
+
+	.w-80,
+	.custom-width {
+		width:100%;
+		max-width: 100%;
+	}
 }
