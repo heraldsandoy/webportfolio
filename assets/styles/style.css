@@ -55,7 +55,7 @@
 }
 
 .padding-r {
-	padding-right:5%;
+	padding-right:5% !important;
 }
 
 .im-herald {
