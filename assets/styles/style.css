@@ -50,12 +50,12 @@
 
 #intro h1 {
 	font-family: 'Rajdhani', sans-serif;
-	font-size: 120px;
+	font-size: 90px;
 }
 
 #intro p {
-	font-size: 40px;
-	width: 95%;
+    font-size: 30px;
+    width: 95%;
     margin: 0 0 0 auto;
 }
 
