@@ -22,7 +22,11 @@
 }
 
 .navbar-brand .logo-mine {
+<<<<<<< HEAD
 	width:70px;
+=======
+	width:80px;
+>>>>>>> 4433620f47be847b986826b1879347f8249f949e
 }
 
 .navbar-nav i {
@@ -49,11 +53,19 @@
 
 #intro h1 {
 	font-family: 'Rajdhani', sans-serif;
+<<<<<<< HEAD
 	font-size: 70px;
 }
 
 #intro p {
 	font-size: 30px;
+=======
+	font-size: 90px;
+}
+
+#intro p {
+    font-size: 30px;
+>>>>>>> 4433620f47be847b986826b1879347f8249f949e
     width: 95%;
     margin: 0 0 0 auto;
     padding-bottom: 30px;
@@ -99,6 +111,7 @@
 .img-group p {
 	font-size: 30px;
     font-weight: bold;
+<<<<<<< HEAD
 	margin-bottom: 50px;
 }
 
@@ -268,3 +281,6 @@ form label {
 		max-width: 100%;
 	}
 }
+=======
+}
+>>>>>>> 4433620f47be847b986826b1879347f8249f949e
