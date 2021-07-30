@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Ubuntu:wght@300&display=swap');
+
 * {
 	margin:0;
 	padding:0;
+	font-family: 'Ubuntu', sans-serif;
+	color:#2d2926;
+}
+
+#main-body .left-col {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+#navbar-custom {
+	background-color: #2d2926 !important;
+	width: 12%; 
+}
+
+#navbar-custom .navbar-nav {
+	display: block;
+}
+
+.navbar-brand .logo-mine {
+	width:80px;
+}
+
+.navbar-nav i {
+	color: #fff;
+	font-size: 30px;
+}
+
+.me-bg {
+	background: url(../images/img.jpg);
+    background-size: cover;
+    width: 544px;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 0 auto;
+	position: relative;
+	z-index: 999;
+}
+
+#intro h1 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 10rem;
+}
+
+#intro p {
+	font-size: 3rem;
+	width: 95%;
+    margin: 0 0 0 auto;
+	
+}
+
+.padding-r {
+	padding-right:5%;
+}
+
+.im-herald {
+	color: #e94c3d;
 }
