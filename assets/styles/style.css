@@ -22,12 +22,18 @@
 }
 
 .navbar-brand .logo-mine {
-	width:80px;
+	width:100px;
 }
 
 .navbar-nav i {
 	color: #fff;
 	font-size: 30px;
+	transition:all 0.5s ease;
+}
+
+.navbar-nav i:hover {
+	color: #e94c3d;
+	font-size:40px;
 }
 
 .me-bg {
@@ -44,20 +50,48 @@
 
 #intro h1 {
 	font-family: 'Rajdhani', sans-serif;
-	font-size: 10rem;
+	font-size: 120px;
 }
 
 #intro p {
-	font-size: 3rem;
+	font-size: 40px;
 	width: 95%;
     margin: 0 0 0 auto;
-	
 }
 
 .padding-r {
 	padding-right:5% !important;
 }
 
+.padding-l {
+	padding-left:5% !important;
+}
+
 .im-herald {
 	color: #e94c3d;
+}
+
+.career {
+	font-weight:bold;
+	color:#e94c3d;
+}
+
+#tools .img-group {
+	flex: 0 0 14%;
+	text-align: center;
+}
+
+#tools h1 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size:60px;
+}
+
+.custom-width {
+	width: 80%;
+    margin: 45px auto 0 auto;
+}
+
+.img-group p {
+	font-size: 30px;
+    font-weight: bold;
 }
