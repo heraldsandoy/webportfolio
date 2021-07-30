@@ -31,7 +31,7 @@
 }
 
 .me-bg {
-	background: url(../images/img.jpg);
+	background: url(assets/images/img.jpg);
     background-size: cover;
     width: 544px;
     height: 900px;
